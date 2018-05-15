@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sendMessage(View view){
-        Intent intent = new Intent(this, DisplayRideStatictics.class);
+        Intent intent = new Intent(this, DispRideStats_List.class);
         startActivity(intent);
     }
 }
