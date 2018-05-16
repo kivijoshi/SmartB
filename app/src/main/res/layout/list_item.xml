@@ -35,6 +35,12 @@
         android:layout_alignLeft="@+id/aNametxt"
         android:layout_alignStart="@+id/aNametxt" />
 
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_below="@id/aVersiontxt"
+        android:id="@+id/chart1"> </com.github.mikephil.charting.charts.LineChart>
+
 
 
 </RelativeLayout>
